@@ -38,7 +38,7 @@
                 echo "<td>".$row['age']."<td>";
                 echo "<td>".$row['location']."<td>";
                 echo "<td>".$row['create_at']."<td>";
-                echo "<td><a href=edit/".$row['id'].">Edit</a><button>Delete</button><td>";
+                echo "<td><a href=edit/".$row['id'].">Edit</a><a href=delete/".$row['id'].">Delete</a><td>";
                 echo "<tr>";
             }
 
